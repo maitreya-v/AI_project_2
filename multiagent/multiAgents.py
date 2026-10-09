@@ -260,6 +260,7 @@ class MinimaxAgent(MultiAgentSearchAgent):
                 bestAction = action
 
         self._lastSearchValue = bestValue
+        print("Pac-Man action", bestAction)
         return bestAction
 
 class AlphaBetaAgent(MultiAgentSearchAgent):
